@@ -29,7 +29,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-primary">Dr. Sarah Chen</span>
+          <span className="text-xl font-bold text-primary">Mohammad Mozammil Akhtar</span>
         </Link>
 
         {/* Desktop Navigation */}

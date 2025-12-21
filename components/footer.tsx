@@ -11,10 +11,9 @@ const footerLinks = [
 ]
 
 const socialLinks = [
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { name: "Twitter", href: "https://twitter.com", icon: Twitter },
-  { name: "GitHub", href: "https://github.com", icon: Github },
-  { name: "Email", href: "mailto:sarah.chen@university.edu", icon: Mail },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-mozammil-akhtar-195407174/", icon: Linkedin },
+  { name: "Twitter", href: "https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en", icon: Twitter },
+  { name: "Email", href: "mailto:mozammilakhtar8171@gmail.com", icon: Mail },
 ]
 
 export function Footer() {
@@ -23,7 +22,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-4 text-lg font-bold text-primary">Dr. Sarah Chen</h3>
+            <h3 className="mb-4 text-lg font-bold text-primary">Mohammad Mozammil Akhtar</h3>
             <p className="text-sm text-muted-foreground">
               Researcher, educator, and environmental advocate dedicated to creating sustainable solutions for our
               planet.

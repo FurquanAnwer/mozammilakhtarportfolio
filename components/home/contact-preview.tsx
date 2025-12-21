@@ -26,35 +26,29 @@ export function ContactPreview() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Mail className="h-5 w-5 text-primary" />
-                  <span>sarah.chen@university.edu</span>
+                  <span>mozammilakhtar8171@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Phone className="h-5 w-5 text-primary" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 8171258593</span>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <span>Department of Environmental Science, Stanford University</span>
+                  <span>India</span>
                 </div>
               </div>
 
               <div className="mt-8 flex gap-4">
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/mohammad-mozammil-akhtar-195407174/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
-                <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Twitter className="h-5 w-5" />
-                    <span className="sr-only">Twitter</span>
-                  </Button>
-                </Link>
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="icon">
-                    <Github className="h-5 w-5" />
-                    <span className="sr-only">GitHub</span>
+                    <span className="sr-only">Google Scholar</span>
                   </Button>
                 </Link>
               </div>

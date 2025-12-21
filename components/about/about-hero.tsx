@@ -20,20 +20,8 @@ export function AboutHero() {
             </h1>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I am a designer and developer at the intersection of environmental science and technology. My interests
-                span a broad spectrum of subjects, encompassing sustainable development, climate research, conservation
-                biology, and human-environment interaction.
-              </p>
-              <p>
-                Since graduate school, I have spent years on field research, data analysis, and policy development. In
-                2015, I earned my Ph.D. in Environmental Science from MIT, and joined as a research fellow at Stanford
-                University. In 2018, I established the Sustainable Futures Lab to help build the next generation of
-                environmental solutions.
-              </p>
-              <p>
-                You can gain further insights into my background and interests through my publications, projects, or
-                find me on LinkedIn, Twitter, and ResearchGate.
-              </p>
+                I am a research enthusiast passionate about developing innovative solutions to overcome challenges in the commercialization of Electric Vehicles (EVs). I aspire to contribute to sustainable development by supporting “SDG 7: Affordable and Clean Energy” and “SDG 13: Climate Action” through the advancement of zero-carbon emission vehicles, helping create a cleaner and healthier environment. Moreover, with this passion, I have developed a strong, multidisciplinary engineering background  in computer, environmental and Electrical that enables me to tackle challenges from a wide range of perspectives. Below are the educational qualifications, skills, and experiences I possess that will enable me to fulfill my goal successfully, and I aim to continue in this field for the foreseeable future.
+              </p>              
             </div>
           </div>
 

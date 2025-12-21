@@ -19,15 +19,13 @@ export function HeroSection() {
             transition={{ duration: 0.5 }}
             className="order-2 lg:order-1"
           >
-            <p className="mb-4 text-sm font-medium uppercase tracking-wider text-primary">
-              Researcher & Environmental Advocate
-            </p>
+            
             <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-              Dr. Sarah Chen
+              Mohammad Mozammil Akhtar
             </h1>
             <p className="mb-8 text-lg leading-relaxed text-muted-foreground max-w-xl">
-              I build accessible, pixel-perfect digital experiences for the web. My research lies at the intersection of
-              environmental science and sustainable development, creating impactful solutions for our planet.
+              Hello! I am a research enthusiast from India passionate about sustainable transportation.
+
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -47,17 +45,17 @@ export function HeroSection() {
 
             <div className="mt-12 flex items-center gap-8">
               <div>
-                <p className="text-3xl font-bold text-primary">50+</p>
+                <p className="text-3xl font-bold text-primary">5+</p>
                 <p className="text-sm text-muted-foreground">Publications</p>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
-                <p className="text-3xl font-bold text-primary">15+</p>
-                <p className="text-sm text-muted-foreground">Years Experience</p>
+                <p className="text-3xl font-bold text-primary">2+</p>
+                <p className="text-sm text-muted-foreground">Years of Research Experience</p>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
-                <p className="text-3xl font-bold text-primary">10+</p>
+                <p className="text-3xl font-bold text-primary">7+</p>
                 <p className="text-sm text-muted-foreground">Awards</p>
               </div>
             </div>
