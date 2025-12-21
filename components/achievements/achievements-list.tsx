@@ -3,75 +3,79 @@
 import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Award, Medal, Star, Trophy, Globe, BookOpen } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Award, Medal, GraduationCap, Trophy, Globe, FileText, ExternalLink } from "lucide-react"
 
 const achievements = [
   {
-    title: "Global Environmental Leadership Award",
-    organization: "United Nations Environment Programme",
-    year: "2023",
-    category: "Leadership",
-    description:
-      "Recognized for outstanding contributions to global environmental policy and sustainable development initiatives affecting over 50 countries.",
-    icon: Globe,
-  },
-  {
-    title: "Excellence in Research Award",
-    organization: "American Association for the Advancement of Science",
+    title: "MTCP (Malaysian Technical Cooperation Programme) Scholarship",
+    organization: "Ministry of Foreign Affairs, Malaysia",
     year: "2022",
-    category: "Research",
-    description: "Honored for groundbreaking research in ecosystem restoration and carbon sequestration methodologies.",
-    icon: Trophy,
+    category: "Scholarship",
+    description:
+      "Fully funded scholarship for Master's degree at Universiti Malaya, Malaysia. Sole recipient from India in 2022, selected among 14 scholars worldwide. Scholarship awarded based on academic merit and international competitiveness.",
+    icon: Globe,
+    certificateUrl: "#",
   },
   {
-    title: "Young Scientist Medal",
-    organization: "International Union for Conservation of Nature",
-    year: "2021",
-    category: "Science",
-    description: "Awarded for innovative approaches to biodiversity conservation and habitat preservation strategies.",
-    icon: Medal,
+    title: "Türkiye Bursları Scholarship",
+    organization: "Presidency for Turks Abroad and Related Communities",
+    year: "2022",
+    category: "Scholarship",
+    description:
+      "Selected to pursue a Master's degree in Electrical Engineering at Gaziantep University, Türkiye. Chosen among lakhs of applicants based on academic excellence.",
+    icon: GraduationCap,
+    certificateUrl: "#",
+  },
+  {
+    title: "Ministry of Education (MOE) Scholarship, Taiwan",
+    organization: "Ministry of Education, Taiwan",
+    year: "2022",
+    category: "Scholarship",
+    description:
+      "Received to pursue a Master's degree (IMEPE) at NSYSU, Taiwan in 2022. Selected among 100 applicants for this prestigious scholarship.",
+    icon: GraduationCap,
+    certificateUrl: "#",
   },
   {
     title: "Best Paper Award",
-    organization: "Nature Climate Change",
-    year: "2020",
-    category: "Publication",
+    organization: "International Conference at IEM, Kolkata, India",
+    year: "2022",
+    category: "Research",
     description:
-      "Recognized for the most impactful research paper on climate adaptation strategies in coastal communities.",
-    icon: BookOpen,
+      "Received the Best Paper Award at an International Conference held at IEM, Kolkata, India. Presented the research paper at the international conference.",
+    icon: FileText,
+    certificateUrl: "#",
   },
   {
-    title: "Rising Star in Environmental Science",
-    organization: "Environmental Science & Technology",
-    year: "2019",
-    category: "Recognition",
-    description:
-      "Named among the top 10 emerging scientists making significant contributions to environmental science.",
-    icon: Star,
-  },
-  {
-    title: "Presidential Early Career Award",
-    organization: "National Science Foundation",
-    year: "2018",
-    category: "Career",
-    description: "Received federal recognition for exceptional potential in scientific research and leadership.",
-    icon: Award,
-  },
-  {
-    title: "Conservation Hero Award",
-    organization: "World Wildlife Fund",
-    year: "2017",
-    category: "Conservation",
-    description: "Acknowledged for efforts in protecting endangered species and their natural habitats.",
-    icon: Trophy,
-  },
-  {
-    title: "Outstanding Dissertation Award",
-    organization: "MIT School of Science",
-    year: "2015",
+    title: "Best Project Award",
+    organization: "Department of Electrical Engineering, NIT Hamirpur",
+    year: "2021",
     category: "Academic",
-    description: "Recognized for exceptional doctoral research on climate change impacts on coastal ecosystems.",
-    icon: BookOpen,
+    description:
+      "Awarded the Best Project Award by the Department of Electrical Engineering, NIT Hamirpur. Received a cash prize of INR 5,100 along with an internship completion certificate.",
+    icon: Trophy,
+    certificateUrl: "#",
+  },
+  {
+    title: "AMU Alumni Scholarship (Young Inspiration Award)",
+    organization: "Aligarh Muslim University Alumni Association, USA",
+    year: "2020",
+    category: "Scholarship",
+    description:
+      "Awarded the Aligarh Muslim University Alumni Scholarship (Young Inspiration Award), USA. Received the scholarship based on outstanding academic performance.",
+    icon: Award,
+    certificateUrl: "#",
+  },
+  {
+    title: "AMU Alumni Scholarship, Canada",
+    organization: "Sana Rural Urban Welfare Society, Canada",
+    year: "2019",
+    category: "Scholarship",
+    description:
+      "Awarded the Aligarh Muslim University Alumni Scholarship, Canada by Sana Rural Urban Welfare Society. Received based on academic excellence and dedication to studies.",
+    icon: Medal,
+    certificateUrl: "#",
   },
 ]
 
@@ -116,9 +120,17 @@ export function AchievementsList() {
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4 text-muted-foreground">{achievement.description}</p>
-                  <Badge variant="secondary" className="bg-secondary text-secondary-foreground">
-                    {achievement.category}
-                  </Badge>
+                  <div className="flex items-center justify-between">
+                    <Badge variant="secondary" className="bg-secondary text-secondary-foreground">
+                      {achievement.category}
+                    </Badge>
+                    <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80" asChild>
+                      <a href={achievement.certificateUrl} target="_blank" rel="noopener noreferrer">
+                        View Certificate
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>

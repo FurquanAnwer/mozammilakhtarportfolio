@@ -8,7 +8,9 @@ const qualifications = [
     year: "2022 - Present",
     title: "M.Eng.(s.c) (Research Mode) ,(Electrical Engineering)",
     institution: "Universiti Malaya, Malaysia (QS Rank-58)",
-    description: "Research: Wireless Power Transfer for Electric Vehicles (EVs)Supervisor: Prof. Dr. Saad Mekhilef (Citation: 68,000+)(Thesis submitted and followed by viva and degree award)",
+    research: "Wireless Power Transfer for Electric Vehicles (EVs)",
+    supervisor: "Prof. Dr. Saad Mekhilef (Citation: 68,000+)",
+    description: "(Thesis submitted and followed by viva and degree award)",
     icon: Briefcase,
     type: "work",
   },
@@ -81,7 +83,17 @@ export function QualificationsTimeline() {
                     </span>
                     <h3 className="mb-1 text-lg font-semibold text-foreground">{qual.title}</h3>
                     <p className="mb-2 text-sm font-medium text-primary">{qual.institution}</p>
-                    <p className="text-sm text-muted-foreground">{qual.description}</p>
+                    {qual.research && (
+                      <p className="text-sm text-muted-foreground">
+                        <span className="font-semibold text-foreground">Research:</span> {qual.research}
+                      </p>
+                    )}
+                    {qual.supervisor && (
+                      <p className="text-sm text-muted-foreground mt-1">
+                        <span className="font-semibold text-foreground">Supervisor:</span> {qual.supervisor}
+                      </p>
+                    )}
+                    <p className="text-sm text-muted-foreground mt-1">{qual.description}</p>
                   </div>
                 </div>
 

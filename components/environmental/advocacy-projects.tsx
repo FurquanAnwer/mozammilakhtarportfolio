@@ -4,69 +4,45 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Globe, TreePine, Fish, Mountain, Waves, Sun } from "lucide-react"
-import Image from "next/image"
+import { ExternalLink, Leaf, TreePine, PenLine, HeartHandshake } from "lucide-react"
 import Link from "next/link"
 
 const projects = [
   {
-    title: "Coastal Resilience Initiative",
-    organization: "Bay Area Conservation Alliance",
-    status: "Active",
+    title: "Energy, Environment & Sustainable Development Symposium",
+    organization: "ECO Club, Aligarh Muslim University (AMU), Aligarh, India",
+    type: "Symposium",
     description:
-      "Leading efforts to protect and restore coastal wetlands, providing natural barriers against sea-level rise and storm surge.",
-    image: "/coastal-wetland-conservation-project.jpg",
-    link: "#",
-    icon: Waves,
+      "Participated in a one-day symposium focused on energy conservation, environmental protection, and sustainable development practices.",
+    certificateLink: "#",
+    icon: Leaf,
   },
   {
-    title: "Urban Reforestation Project",
-    organization: "City Green Initiative",
-    status: "Active",
+    title: "Climate Change Essay Writing Competition",
+    organization: "ECO Club, Aligarh Muslim University (AMU), Aligarh, India",
+    type: "Competition",
     description:
-      "Coordinating city-wide tree planting campaigns to increase urban canopy cover and reduce heat island effects.",
-    image: "/urban-tree-planting-reforestation.jpg",
-    link: "#",
+      "Participated in an online essay writing competition on 'Climate Change and the Threat to Mankind', exploring the impacts of climate change on human civilization.",
+    certificateLink: "#",
+    icon: PenLine,
+  },
+  {
+    title: "ECO Fox Run",
+    organization: "ECO Club, Aligarh Muslim University (AMU), Aligarh, India",
+    type: "Event",
+    description:
+      "Participated in the ECO Fox Run to promote a healthy lifestyle and raise awareness about environmental conservation through physical activity.",
+    certificateLink: "#",
+    icon: HeartHandshake,
+  },
+  {
+    title: "ECO Fiesta - Organizer",
+    organization: "ECO Club, Aligarh Muslim University (AMU), Aligarh, India",
+    type: "Organizing",
+    description:
+      "Organized 'ECO Fiesta' to promote environmental awareness among students in the university, featuring various activities and educational sessions on sustainability.",
+    certificateLink: "#",
     icon: TreePine,
-  },
-  {
-    title: "Marine Conservation Advocacy",
-    organization: "Ocean Alliance Foundation",
-    status: "Active",
-    description:
-      "Advocating for expanded marine protected areas and sustainable fishing practices to protect ocean biodiversity.",
-    image: "/marine-ocean-conservation-coral-reef.jpg",
-    link: "#",
-    icon: Fish,
-  },
-  {
-    title: "Climate Policy Task Force",
-    organization: "State Environmental Agency",
-    status: "Completed",
-    description:
-      "Served on a task force developing state-level climate adaptation policies and emission reduction targets.",
-    image: "/climate-policy-meeting-discussion.jpg",
-    link: "#",
-    icon: Globe,
-  },
-  {
-    title: "Mountain Ecosystem Preservation",
-    organization: "Alpine Conservation Trust",
-    status: "Active",
-    description:
-      "Protecting vulnerable alpine ecosystems from climate change impacts through research and policy advocacy.",
-    image: "/alpine-mountain-ecosystem-conservation.jpg",
-    link: "#",
-    icon: Mountain,
-  },
-  {
-    title: "Renewable Energy Advocacy",
-    organization: "Clean Energy Coalition",
-    status: "Active",
-    description: "Promoting transition to renewable energy sources through community outreach and policy engagement.",
-    image: "/renewable-energy-solar-wind-advocacy.jpg",
-    link: "#",
-    icon: Sun,
   },
 ]
 
@@ -93,9 +69,10 @@ export function AdvocacyProjects() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <h2 className="mb-4 text-3xl font-bold text-foreground">Advocacy Projects</h2>
+          <h2 className="mb-4 text-3xl font-bold text-foreground">Environmental Activities</h2>
           <p className="max-w-2xl text-muted-foreground">
-            Current and past environmental advocacy initiatives focused on conservation, policy, and sustainability.
+            Contributions to environmental awareness and sustainability through the ECO Club at Aligarh Muslim
+            University.
           </p>
         </motion.div>
 
@@ -104,42 +81,44 @@ export function AdvocacyProjects() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+          className="grid gap-6 md:grid-cols-2"
         >
           {projects.map((project, index) => (
             <motion.div key={index} variants={item}>
               <Card className="h-full overflow-hidden transition-all duration-300 hover:border-primary/50">
-                <div className="relative aspect-video overflow-hidden">
-                  <Image
-                    src={project.image || "/placeholder.svg"}
-                    alt={project.title}
-                    fill
-                    className="object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                  <div className="absolute top-3 right-3">
+                <CardHeader>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                        <project.icon className="h-5 w-5 text-primary" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-lg text-foreground">{project.title}</CardTitle>
+                        <CardDescription className="text-primary font-medium text-sm">
+                          {project.organization}
+                        </CardDescription>
+                      </div>
+                    </div>
                     <Badge
                       className={
-                        project.status === "Active"
+                        project.type === "Organizing"
                           ? "bg-primary text-primary-foreground"
-                          : "bg-muted text-muted-foreground"
+                          : project.type === "Competition"
+                            ? "bg-amber-500/20 text-amber-400"
+                            : project.type === "Symposium"
+                              ? "bg-blue-500/20 text-blue-400"
+                              : "bg-green-500/20 text-green-400"
                       }
                     >
-                      {project.status}
+                      {project.type}
                     </Badge>
                   </div>
-                </div>
-                <CardHeader>
-                  <div className="flex items-center gap-2">
-                    <project.icon className="h-5 w-5 text-primary" />
-                    <CardTitle className="text-lg text-foreground">{project.title}</CardTitle>
-                  </div>
-                  <CardDescription className="text-primary font-medium">{project.organization}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4 text-sm text-muted-foreground">{project.description}</p>
                   <Button variant="outline" size="sm" asChild>
-                    <Link href={project.link}>
-                      Learn More
+                    <Link href={project.certificateLink} target="_blank" rel="noopener noreferrer">
+                      View Certificate
                       <ExternalLink className="ml-2 h-3 w-3" />
                     </Link>
                   </Button>

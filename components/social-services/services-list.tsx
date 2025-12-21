@@ -3,9 +3,30 @@
 import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GraduationCap, Users, TreePine, Mic, BookOpen, Globe } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Users, Heart, ExternalLink } from "lucide-react"
 
 const services = [
+  {
+    title: "Blanket Distribution Drive",
+    organization: "NGO Partnership",
+    period: "2 Weeks",
+    description:
+      "Participated in a 2-week blanket distribution drive for people living in slum areas. Contributed to winter relief efforts for underprivileged communities.",
+    impact: "Winter Relief Initiative",
+    icon: Heart,
+    certificateUrl: "#",
+  },
+  {
+    title: "District Youth Parliament Festival",
+    organization: "National Service Scheme (NSS), AMU",
+    period: "AMU, Aligarh",
+    description:
+      "Participated in the District Youth Parliament Festival at AMU, Aligarh. Assisted with attendee registration and technical management during the event.",
+    impact: "Event Management",
+    icon: Users,
+    certificateUrl: "#",
+  },
   {
     title: "Environmental Education Workshops",
     organization: "Local Schools Partnership",
@@ -13,7 +34,7 @@ const services = [
     description:
       "Leading monthly workshops for K-12 students on climate science, conservation, and sustainable living practices.",
     impact: "Reached 5,000+ students",
-    icon: GraduationCap,
+    icon: Users,
   },
   {
     title: "Community Cleanup Initiatives",
@@ -21,7 +42,7 @@ const services = [
     period: "2019 - Present",
     description: "Organizing and leading quarterly beach and wetland cleanup events with community volunteers.",
     impact: "Removed 15 tons of waste",
-    icon: TreePine,
+    icon: Users,
   },
   {
     title: "Science Communication Mentorship",
@@ -38,7 +59,7 @@ const services = [
     description:
       "Delivering free public lectures on environmental issues, climate change, and sustainability solutions.",
     impact: "300+ attendees annually",
-    icon: Mic,
+    icon: Users,
   },
   {
     title: "Science Fair Judging",
@@ -46,7 +67,7 @@ const services = [
     period: "2016 - Present",
     description: "Serving as a judge for regional and state science fairs, encouraging young scientists.",
     impact: "Judged 200+ projects",
-    icon: BookOpen,
+    icon: Users,
   },
   {
     title: "International Volunteer Program",
@@ -54,7 +75,7 @@ const services = [
     period: "2015 - 2018",
     description: "Coordinated international volunteer programs for ecosystem restoration in developing countries.",
     impact: "50+ countries involved",
-    icon: Globe,
+    icon: Users,
   },
 ]
 
@@ -111,7 +132,17 @@ export function ServicesList() {
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4 text-muted-foreground">{service.description}</p>
-                  <Badge variant="secondary">{service.impact}</Badge>
+                  <div className="flex items-center justify-between">
+                    <Badge variant="secondary">{service.impact}</Badge>
+                    {service.certificateUrl && (
+                      <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80" asChild>
+                        <a href={service.certificateUrl} target="_blank" rel="noopener noreferrer">
+                          View Certificate
+                          <ExternalLink className="ml-2 h-4 w-4" />
+                        </a>
+                      </Button>
+                    )}
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>

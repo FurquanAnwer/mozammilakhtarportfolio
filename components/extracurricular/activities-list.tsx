@@ -3,54 +3,154 @@
 import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Camera, Mountain, BookHeart, Music, Utensils, Plane } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import {
+  Users,
+  Mic,
+  FlaskConical,
+  Lightbulb,
+  Brain,
+  BookOpen,
+  TrendingUp,
+  Sun,
+  Cpu,
+  Bot,
+  Factory,
+  Globe,
+  HeartPulse,
+  GraduationCap,
+  PenLine,
+  Settings,
+  ExternalLink,
+} from "lucide-react"
 
 const activities = [
   {
-    title: "Nature Photography",
-    category: "Creative",
+    title: "UPCON International Conference Volunteer",
+    category: "Volunteering",
     description:
-      "Capturing the beauty of ecosystems and wildlife through photography. Work featured in National Geographic and various environmental publications.",
-    highlights: ["Published in Nat Geo", "Solo exhibition 2022", "500+ nature shots"],
-    icon: Camera,
+      "Volunteered at the international conference (UPCON) held at the Department of Electrical Engineering, Zakir Hussain College of Engineering and Technology, Aligarh Muslim University, Aligarh, India.",
+    icon: Users,
+    certificateUrl: "#",
   },
   {
-    title: "Mountain Hiking",
-    category: "Adventure",
+    title: "Declamation Contest - Fundamental Duties",
+    category: "Competition",
     description:
-      "Exploring mountain ecosystems while maintaining physical fitness. Completed trails across 5 continents with focus on studying alpine environments.",
-    highlights: ["50+ peaks summited", "Alpine research", "Trail guide certified"],
-    icon: Mountain,
+      "Participated in a fully funded declamation contest on 'Fundamental Duties of Citizens of India,' organized by the National Institute of Technical Teachers' Training and Research (NITTTR), Chandigarh, India.",
+    icon: Mic,
+    certificateUrl: "#",
   },
   {
-    title: "Science Fiction Writing",
-    category: "Creative",
+    title: "Science Fest 2K19 Organizer",
+    category: "Organizing",
     description:
-      "Writing short stories exploring environmental themes and climate futures. Published in multiple science fiction magazines.",
-    highlights: ["5 published stories", "Hugo nomination", "Writing workshop leader"],
-    icon: BookHeart,
+      "Organized Science Fest 2K19 at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India. Invited school students from Aligarh district to showcase their passion for science.",
+    icon: FlaskConical,
+    certificateUrl: "#",
   },
   {
-    title: "Classical Piano",
-    category: "Arts",
+    title: "IPR Workshop Organizer",
+    category: "Organizing",
     description:
-      "Playing piano for relaxation and performing at charity events. Studied at the Royal Conservatory of Music.",
-    highlights: ["Grade 10 RCM", "Charity performances", "20+ years playing"],
-    icon: Music,
+      "Organized a workshop on Intellectual Property Rights (IPR) under the Institution's Innovation Council at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh.",
+    icon: Lightbulb,
+    certificateUrl: "#",
   },
   {
-    title: "Sustainable Cooking",
-    category: "Lifestyle",
-    description: "Exploring plant-based cuisine and sustainable food practices. Advocate for local, seasonal eating.",
-    highlights: ["Recipe blog author", "Zero-waste advocate", "Community workshops"],
-    icon: Utensils,
+    title: "Cognitive Skills & Design Thinking Workshop",
+    category: "Workshop",
+    description:
+      "Participated in a workshop on cognitive skills, design thinking, and critical thinking, organized by the Institution's Innovation Council at Zakir Hussain College of Engineering and Technology, AMU, Aligarh, India.",
+    icon: Brain,
+    certificateUrl: "#",
   },
   {
-    title: "Field Expedition Travel",
-    category: "Adventure",
-    description: "Traveling to remote locations for field research and experiencing diverse ecosystems firsthand.",
-    highlights: ["60+ countries", "Antarctica expedition", "Amazon research"],
-    icon: Plane,
+    title: "Making of Modern India Lecture",
+    category: "Lecture",
+    description:
+      "Participated in a lecture on 'Making of Modern India,' organized by the Training and Placement Office, Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
+    icon: BookOpen,
+    certificateUrl: "#",
+  },
+  {
+    title: "Professional Growth & Development Workshop",
+    category: "Workshop",
+    description:
+      "Participated in a workshop on 'Professional Growth and Development' during a summer internship at the National Institute of Technology (NIT), Hamirpur, India.",
+    icon: TrendingUp,
+    certificateUrl: "#",
+  },
+  {
+    title: "Grid-Connected Solar PV Plants Seminar",
+    category: "Seminar",
+    description:
+      "Participated in a national seminar on 'Grid-Connected Solar PV Plants' at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
+    icon: Sun,
+    certificateUrl: "#",
+  },
+  {
+    title: "Embedded Systems & IoT Workshop",
+    category: "Workshop",
+    description:
+      "Participated in a two-day workshop on 'Embedded Systems and IoT' at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
+    icon: Cpu,
+    certificateUrl: "#",
+  },
+  {
+    title: "Autonomous Robotics & Embedded Systems Workshop",
+    category: "Workshop",
+    description:
+      "Participated in a workshop on 'Autonomous Robotics and Embedded Systems' at University Polytechnic, Aligarh Muslim University (AMU), Aligarh, India.",
+    icon: Bot,
+    certificateUrl: "#",
+  },
+  {
+    title: "Make in India Workshop",
+    category: "Workshop",
+    description:
+      "Participated in a workshop on 'Make in India: Opportunities and Challenges for Engineers' at University Polytechnic, Aligarh Muslim University (AMU), Aligarh, India.",
+    icon: Factory,
+    certificateUrl: "#",
+  },
+  {
+    title: "International Conference on Renewable Power",
+    category: "Conference",
+    description:
+      "Participated in the International Conference on Renewable Power, organized by Baba Ghulam Shah Badshah University, Rajouri, J&K, India.",
+    icon: Globe,
+    certificateUrl: "#",
+  },
+  {
+    title: "Robotics and Healthcare Webinar",
+    category: "Webinar",
+    description:
+      "Participated in an international webinar on 'Robotics and Healthcare,' organized by St. Xavier's College, Nevta, affiliated with the University of Rajasthan, Jaipur, India.",
+    icon: HeartPulse,
+    certificateUrl: "#",
+  },
+  {
+    title: "Research Literacy - Youth Skills Day",
+    category: "Event",
+    description:
+      "Participated in Research Literacy activities on the occasion of Youth Skills Day, organized by exploreiT.",
+    icon: GraduationCap,
+    certificateUrl: "#",
+  },
+  {
+    title: "Essay Writing Competition",
+    category: "Competition",
+    description:
+      "Participated in an essay writing competition on 'The Pandemic and Public Policy,' organized by the Law Faculty, Aligarh Muslim University (AMU), Aligarh.",
+    icon: PenLine,
+    certificateUrl: "#",
+  },
+  {
+    title: "Basics of ANSYS Workshop",
+    category: "Workshop",
+    description: "Participated in a three-day workshop on the basics of ANSYS, organized by MMANTC, Malegaon, India.",
+    icon: Settings,
+    certificateUrl: "#",
   },
 ]
 
@@ -67,6 +167,18 @@ const item = {
   show: { opacity: 1, y: 0 },
 }
 
+const categoryColors: Record<string, string> = {
+  Volunteering: "bg-blue-500/10 text-blue-400 border-blue-500/30",
+  Competition: "bg-orange-500/10 text-orange-400 border-orange-500/30",
+  Organizing: "bg-purple-500/10 text-purple-400 border-purple-500/30",
+  Workshop: "bg-primary/10 text-primary border-primary/30",
+  Lecture: "bg-green-500/10 text-green-400 border-green-500/30",
+  Seminar: "bg-yellow-500/10 text-yellow-400 border-yellow-500/30",
+  Conference: "bg-pink-500/10 text-pink-400 border-pink-500/30",
+  Webinar: "bg-cyan-500/10 text-cyan-400 border-cyan-500/30",
+  Event: "bg-indigo-500/10 text-indigo-400 border-indigo-500/30",
+}
+
 export function ActivitiesList() {
   return (
     <section className="py-12 bg-card/50">
@@ -80,27 +192,34 @@ export function ActivitiesList() {
         >
           {activities.map((activity, index) => (
             <motion.div key={index} variants={item}>
-              <Card className="h-full transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
+              <Card className="h-full flex flex-col transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
                       <activity.icon className="h-6 w-6" />
                     </div>
-                    <Badge variant="outline" className="border-primary/30 text-primary">
+                    <Badge
+                      variant="outline"
+                      className={categoryColors[activity.category] || "border-primary/30 text-primary"}
+                    >
                       {activity.category}
                     </Badge>
                   </div>
-                  <CardTitle className="mt-4 text-foreground">{activity.title}</CardTitle>
+                  <CardTitle className="mt-4 text-foreground text-lg">{activity.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="mb-4">{activity.description}</CardDescription>
-                  <div className="flex flex-wrap gap-2">
-                    {activity.highlights.map((highlight, i) => (
-                      <Badge key={i} variant="secondary" className="text-xs">
-                        {highlight}
-                      </Badge>
-                    ))}
-                  </div>
+                <CardContent className="flex-1 flex flex-col">
+                  <CardDescription className="mb-4 flex-1">{activity.description}</CardDescription>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full mt-auto border-primary/30 text-primary hover:bg-primary/10 bg-transparent"
+                    asChild
+                  >
+                    <a href={activity.certificateUrl} target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             </motion.div>

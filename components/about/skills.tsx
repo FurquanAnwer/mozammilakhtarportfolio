@@ -5,20 +5,20 @@ import { Badge } from "@/components/ui/badge"
 
 const skillCategories = [
   {
-    category: "Technical Skills",
-    skills: ["GIS Mapping", "Remote Sensing", "Statistical Analysis", "Data Visualization", "Python", "R Programming"],
+    category: "Simulation & Design Software",
+    skills: ["Ansys Maxwell", "MATLAB", "Visio"],
   },
   {
-    category: "Research Methods",
-    skills: ["Field Sampling", "Lab Analysis", "Survey Design", "Qualitative Research", "Meta-Analysis", "Modeling"],
+    category: "Programming & Documentation",
+    skills: ["Python", "Math Type", "LaTeX"],
   },
   {
-    category: "Software & Tools",
-    skills: ["ArcGIS", "QGIS", "MATLAB", "SPSS", "EndNote", "LaTeX"],
+    category: "Hardware & Prototyping",
+    skills: ["Arduino Uno", "Power Electronics Hardware", "PCB Design"],
   },
   {
     category: "Languages",
-    skills: ["English (Native)", "Mandarin (Fluent)", "Spanish (Intermediate)", "French (Basic)"],
+    skills: ["English (Fluent)", "Hindi (Native)", "Urdu (Native)"],
   },
 ]
 

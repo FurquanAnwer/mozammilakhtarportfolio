@@ -1,5 +1,13 @@
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { Linkedin, Mail } from "lucide-react"
+
+function GoogleScholarIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
+    </svg>
+  )
+}
 
 const footerLinks = [
   { name: "Home", href: "/" },
@@ -12,7 +20,11 @@ const footerLinks = [
 
 const socialLinks = [
   { name: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-mozammil-akhtar-195407174/", icon: Linkedin },
-  { name: "Twitter", href: "https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en", icon: Twitter },
+  {
+    name: "Google Scholar",
+    href: "https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en",
+    icon: GoogleScholarIcon,
+  },
   { name: "Email", href: "mailto:mozammilakhtar8171@gmail.com", icon: Mail },
 ]
 
@@ -64,7 +76,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Dr. Sarah Chen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mohammad Mozammil Akhtar. All rights reserved.</p>
         </div>
       </div>
     </footer>

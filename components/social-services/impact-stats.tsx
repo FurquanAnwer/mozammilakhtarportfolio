@@ -1,13 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Users, Clock, MapPin, Leaf } from "lucide-react"
+import { Heart, Users } from "lucide-react"
 
 const stats = [
-  { label: "Volunteers Mentored", value: "500+", icon: Users },
-  { label: "Hours Contributed", value: "2,000+", icon: Clock },
-  { label: "Communities Reached", value: "50+", icon: MapPin },
-  { label: "Trees Planted", value: "10,000+", icon: Leaf },
+  { label: "Service Activities", value: "2", icon: Heart },
+  { label: "Communities Served", value: "Multiple", icon: Users },
 ]
 
 export function ImpactStats() {
@@ -18,7 +16,7 @@ export function ImpactStats() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid grid-cols-2 gap-6 md:grid-cols-4"
+          className="grid grid-cols-2 gap-6"
         >
           {stats.map((stat, index) => (
             <motion.div

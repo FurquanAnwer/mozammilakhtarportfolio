@@ -2,38 +2,38 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Leaf, Droplets, Wind, Mountain, Fish, TreePine } from "lucide-react"
+import { Car, Wifi, BatteryCharging, Cpu, Settings, Sun } from "lucide-react"
 
 const interests = [
   {
-    title: "Climate Change",
-    description: "Studying long-term climate patterns and their impact on global ecosystems.",
-    icon: Wind,
+    title: "Electric Vehicle",
+    description: "Research on electric vehicle technologies, battery systems, and EV infrastructure development.",
+    icon: Car,
   },
   {
-    title: "Conservation Biology",
-    description: "Developing strategies for biodiversity protection and habitat preservation.",
-    icon: Fish,
+    title: "Wireless Power Transfer Technology",
+    description: "Developing advanced wireless charging systems for efficient contactless power delivery.",
+    icon: Wifi,
   },
   {
-    title: "Ecosystem Restoration",
-    description: "Pioneering techniques for rehabilitating degraded natural environments.",
-    icon: TreePine,
+    title: "Electric Vehicle Charging",
+    description: "Designing static and dynamic wireless charging solutions for electric vehicles.",
+    icon: BatteryCharging,
   },
   {
-    title: "Sustainable Agriculture",
-    description: "Researching eco-friendly farming practices and food security solutions.",
-    icon: Leaf,
+    title: "Power Electronics",
+    description: "Research on power converters, inverters, and high-frequency power conversion systems.",
+    icon: Cpu,
   },
   {
-    title: "Water Resources",
-    description: "Analyzing freshwater systems and developing conservation methods.",
-    icon: Droplets,
+    title: "Control System",
+    description: "Implementing advanced control strategies for power electronic converters and charging systems.",
+    icon: Settings,
   },
   {
-    title: "Land Management",
-    description: "Creating sustainable approaches to land use and urban planning.",
-    icon: Mountain,
+    title: "Renewable Energy",
+    description: "Integration of renewable energy sources with EV charging infrastructure.",
+    icon: Sun,
   },
 ]
 
