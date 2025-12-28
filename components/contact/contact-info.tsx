@@ -10,34 +10,21 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "sarah.chen@stanford.edu",
-    href: "mailto:sarah.chen@stanford.edu",
+    value: "mozammilakhtar8171@gmail.com",
+    href: "mailto:mozammilakhtar8171@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
-  },
-  {
-    icon: MapPin,
-    label: "Office",
-    value: "Room 304, Green Earth Building, Stanford University",
-    href: "https://maps.google.com",
-  },
-  {
-    icon: Clock,
-    label: "Office Hours",
-    value: "Mon-Fri, 9:00 AM - 5:00 PM PST",
-    href: null,
-  },
+    value: "+918171258593",
+    href: "tel:+918171258593",
+  }
+
 ]
 
 const socialLinks = [
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", color: "hover:text-[#0077B5]" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com", color: "hover:text-[#1DA1F2]" },
-  { icon: Github, label: "GitHub", href: "https://github.com", color: "hover:text-foreground" },
-  { icon: BookOpen, label: "Google Scholar", href: "https://scholar.google.com", color: "hover:text-[#4285F4]" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-mozammil-akhtar-195407174/", color: "hover:text-[#0077B5]" },
+  { icon: BookOpen, label: "Google Scholar", href: "https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en", color: "hover:text-[#4285F4]" },
 ]
 
 export function ContactInfo() {
@@ -103,15 +90,6 @@ export function ContactInfo() {
         </CardContent>
       </Card>
 
-      <Card className="border-primary/30 bg-primary/5">
-        <CardContent className="p-6">
-          <h3 className="mb-2 font-semibold text-foreground">Research Collaboration</h3>
-          <p className="text-sm text-muted-foreground">
-            {"I'm actively seeking collaborations in climate research, ecosystem restoration, and sustainable"}
-            development. If {"you're"} working on similar projects, {"I'd"} love to hear from you.
-          </p>
-        </CardContent>
-      </Card>
     </motion.div>
   )
 }

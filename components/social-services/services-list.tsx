@@ -15,7 +15,7 @@ const services = [
       "Participated in a 2-week blanket distribution drive for people living in slum areas. Contributed to winter relief efforts for underprivileged communities.",
     impact: "Winter Relief Initiative",
     icon: Heart,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1n9AedvsqNu986eFEH8_3lVRopR67I1uy/view?usp=sharing",
   },
   {
     title: "District Youth Parliament Festival",
@@ -25,57 +25,7 @@ const services = [
       "Participated in the District Youth Parliament Festival at AMU, Aligarh. Assisted with attendee registration and technical management during the event.",
     impact: "Event Management",
     icon: Users,
-    certificateUrl: "#",
-  },
-  {
-    title: "Environmental Education Workshops",
-    organization: "Local Schools Partnership",
-    period: "2020 - Present",
-    description:
-      "Leading monthly workshops for K-12 students on climate science, conservation, and sustainable living practices.",
-    impact: "Reached 5,000+ students",
-    icon: Users,
-  },
-  {
-    title: "Community Cleanup Initiatives",
-    organization: "Clean Bay Foundation",
-    period: "2019 - Present",
-    description: "Organizing and leading quarterly beach and wetland cleanup events with community volunteers.",
-    impact: "Removed 15 tons of waste",
-    icon: Users,
-  },
-  {
-    title: "Science Communication Mentorship",
-    organization: "Stanford Science Writers",
-    period: "2018 - Present",
-    description: "Mentoring graduate students and early-career researchers in effective science communication skills.",
-    impact: "Mentored 50+ scientists",
-    icon: Users,
-  },
-  {
-    title: "Public Lecture Series",
-    organization: "City Library System",
-    period: "2017 - Present",
-    description:
-      "Delivering free public lectures on environmental issues, climate change, and sustainability solutions.",
-    impact: "300+ attendees annually",
-    icon: Users,
-  },
-  {
-    title: "Science Fair Judging",
-    organization: "Regional Science Olympiad",
-    period: "2016 - Present",
-    description: "Serving as a judge for regional and state science fairs, encouraging young scientists.",
-    impact: "Judged 200+ projects",
-    icon: Users,
-  },
-  {
-    title: "International Volunteer Program",
-    organization: "Green Globe Initiative",
-    period: "2015 - 2018",
-    description: "Coordinated international volunteer programs for ecosystem restoration in developing countries.",
-    impact: "50+ countries involved",
-    icon: Users,
+    certificateUrl: "https://drive.google.com/file/d/1NOBPa4VkrGktymyxkIhfPo0JSvSJGLJJ/view?usp=sharing",
   },
 ]
 
@@ -103,9 +53,6 @@ export function ServicesList() {
           className="mb-12"
         >
           <h2 className="mb-4 text-3xl font-bold text-foreground">Service Activities</h2>
-          <p className="max-w-2xl text-muted-foreground">
-            A commitment to giving back to the community through education, mentorship, and environmental stewardship.
-          </p>
         </motion.div>
 
         <motion.div

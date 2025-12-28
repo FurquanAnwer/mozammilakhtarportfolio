@@ -14,7 +14,7 @@ const projects = [
     type: "Symposium",
     description:
       "Participated in a one-day symposium focused on energy conservation, environmental protection, and sustainable development practices.",
-    certificateLink: "#",
+    certificateLink: "https://drive.google.com/file/d/1vM6_BGjrC78VqboXUnLHIQd07kmAm5_N/view?usp=sharing",
     icon: Leaf,
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     type: "Competition",
     description:
       "Participated in an online essay writing competition on 'Climate Change and the Threat to Mankind', exploring the impacts of climate change on human civilization.",
-    certificateLink: "#",
+    certificateLink: "https://drive.google.com/file/d/1tT6rANuL3sgcOVy8twElE6OhRaqXbWnP/view?usp=sharing",
     icon: PenLine,
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     type: "Event",
     description:
       "Participated in the ECO Fox Run to promote a healthy lifestyle and raise awareness about environmental conservation through physical activity.",
-    certificateLink: "#",
+    certificateLink: "https://drive.google.com/file/d/1caZY4jjuZTCyOhLGz6dVAnSEFmHxA5uu/view?usp=sharing",
     icon: HeartHandshake,
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     type: "Organizing",
     description:
       "Organized 'ECO Fiesta' to promote environmental awareness among students in the university, featuring various activities and educational sessions on sustainability.",
-    certificateLink: "#",
+    certificateLink: "https://drive.google.com/file/d/1w5BknTMXG4wBHlQK27zVY2bHBU7A4ngu/view?usp=sharing",
     icon: TreePine,
   },
 ]

@@ -17,10 +17,6 @@ export function MoocsHero() {
             <MonitorPlay className="h-8 w-8 text-primary" />
           </div>
           <h1 className="mb-4 text-4xl font-bold text-foreground md:text-5xl">MOOCs & Certifications</h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Continuous learning through Massive Open Online Courses and professional certifications to stay at the
-            forefront of environmental science.
-          </p>
         </motion.div>
       </div>
     </section>

@@ -24,17 +24,17 @@ export function PublicationsHero() {
 
           <div className="mt-8 flex justify-center gap-8">
             <div className="text-center">
-              <p className="text-4xl font-bold text-primary">50+</p>
+              <p className="text-4xl font-bold text-primary">5+</p>
               <p className="text-sm text-muted-foreground">Publications</p>
             </div>
             <div className="h-12 w-px bg-border" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-primary">3,500+</p>
+              <p className="text-4xl font-bold text-primary">32+</p>
               <p className="text-sm text-muted-foreground">Citations</p>
             </div>
             <div className="h-12 w-px bg-border" />
             <div className="text-center">
-              <p className="text-4xl font-bold text-primary">42</p>
+              <p className="text-4xl font-bold text-primary">3</p>
               <p className="text-sm text-muted-foreground">h-index</p>
             </div>
           </div>

@@ -7,89 +7,7 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, FileText, BookOpen, Presentation } from "lucide-react"
 import Link from "next/link"
 
-const publications = [
-  {
-    title: "Climate-Driven Migration Patterns in Coastal Bird Populations",
-    journal: "Nature Climate Change",
-    year: "2023",
-    authors: "Chen, S., Martinez, J., Williams, R., et al.",
-    doi: "10.1038/s41558-023-01234",
-    citations: 127,
-    type: "Research Article",
-  },
-  {
-    title: "Mangrove Restoration as a Nature-Based Solution for Coastal Protection",
-    journal: "Science",
-    year: "2023",
-    authors: "Chen, S., Liu, H., Patel, A.",
-    doi: "10.1126/science.abm5678",
-    citations: 245,
-    type: "Research Article",
-  },
-  {
-    title: "Global Assessment of Soil Carbon Sequestration Potential",
-    journal: "Nature Communications",
-    year: "2022",
-    authors: "Chen, S., Thompson, K., Yamamoto, T., et al.",
-    doi: "10.1038/s41467-022-29876",
-    citations: 312,
-    type: "Research Article",
-  },
-  {
-    title: "Biodiversity Hotspots Under Climate Change: A Global Review",
-    journal: "Annual Review of Environment and Resources",
-    year: "2022",
-    authors: "Chen, S., Brown, M.",
-    doi: "10.1146/annurev-environ-012345",
-    citations: 189,
-    type: "Review",
-  },
-  {
-    title: "Ecosystem Services Valuation for Conservation Decision-Making",
-    journal: "Proceedings of the National Academy of Sciences",
-    year: "2021",
-    authors: "Chen, S., Garcia, L., Kim, J., et al.",
-    doi: "10.1073/pnas.2109876543",
-    citations: 156,
-    type: "Research Article",
-  },
-  {
-    title: "Urban Green Infrastructure and Heat Island Mitigation",
-    journal: "Environmental Research Letters",
-    year: "2021",
-    authors: "Chen, S., Anderson, P.",
-    doi: "10.1088/1748-9326/abc123",
-    citations: 98,
-    type: "Research Article",
-  },
-  {
-    title: "Marine Protected Areas: Effectiveness in a Changing Climate",
-    journal: "Conservation Biology",
-    year: "2020",
-    authors: "Chen, S., Wilson, E., Santos, M., et al.",
-    doi: "10.1111/cobi.13456",
-    citations: 234,
-    type: "Research Article",
-  },
-  {
-    title: "The Future of Food Security Under Climate Change",
-    journal: "Nature Food",
-    year: "2020",
-    authors: "Chen, S., Kumar, V.",
-    doi: "10.1038/s43016-020-0078-x",
-    citations: 178,
-    type: "Perspective",
-  },
-  {
-    title:
-      "Prediction of diffused solar radiation using machine learning model based on sun shine period and sky clearness index for the humid sub-tropical climate of India",
-    journal: "Environmental Progress and Sustainable Energy",
-    year: "2023",
-    authors: "Mustafa, Husain, Ali Khan, Akhtar",
-    doi: "10.1002/ep.13973",
-    type: "Journal",
-    icon: BookOpen,
-  },
+const publications = [  
   {
     title:
       "Smart Home Energy Management System under Dynamic pricing for developing countries using Particle Swarm Optimization",
@@ -114,11 +32,8 @@ export function PublicationsList() {
         >
           <div className="flex items-center gap-3 mb-4">
             <FileText className="h-6 w-6 text-primary" />
-            <h2 className="text-3xl font-bold text-foreground">Selected Publications</h2>
+            <h2 className="text-3xl font-bold text-foreground">Conference</h2>
           </div>
-          <p className="max-w-2xl text-muted-foreground">
-            A selection of peer-reviewed papers from leading environmental science journals.
-          </p>
         </motion.div>
 
         <div className="space-y-4">
@@ -181,7 +96,7 @@ export function PublicationsList() {
           className="mt-8 text-center"
         >
           <Button variant="outline" size="lg" asChild>
-            <Link href="https://scholar.google.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
               View All Publications on Google Scholar
               <ExternalLink className="ml-2 h-4 w-4" />
             </Link>

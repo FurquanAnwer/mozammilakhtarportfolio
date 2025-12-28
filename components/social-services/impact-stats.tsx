@@ -8,6 +8,7 @@ const stats = [
   { label: "Communities Served", value: "Multiple", icon: Users },
 ]
 
+
 export function ImpactStats() {
   return (
     <section className="py-12 bg-card/50">

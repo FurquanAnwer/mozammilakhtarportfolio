@@ -7,7 +7,7 @@ export default function SocialServicesPage() {
   return (
     <main className="min-h-screen pt-16">
       <SocialServicesHero />
-      <ImpactStats />
+      {/* <ImpactStats /> */}
       <ServicesList />
       <Footer />
     </main>

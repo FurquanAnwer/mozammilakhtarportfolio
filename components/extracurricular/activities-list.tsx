@@ -31,7 +31,7 @@ const activities = [
     description:
       "Volunteered at the international conference (UPCON) held at the Department of Electrical Engineering, Zakir Hussain College of Engineering and Technology, Aligarh Muslim University, Aligarh, India.",
     icon: Users,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/18mq0QIO8Hy5siEgq-ArmdMkm_psVqQ8f/view?usp=sharing",
   },
   {
     title: "Declamation Contest - Fundamental Duties",
@@ -39,7 +39,7 @@ const activities = [
     description:
       "Participated in a fully funded declamation contest on 'Fundamental Duties of Citizens of India,' organized by the National Institute of Technical Teachers' Training and Research (NITTTR), Chandigarh, India.",
     icon: Mic,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1RMdwZMBMLebpnCtmIutJX_zA0m9chYfI/view?usp=sharing",
   },
   {
     title: "Science Fest 2K19 Organizer",
@@ -47,7 +47,7 @@ const activities = [
     description:
       "Organized Science Fest 2K19 at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India. Invited school students from Aligarh district to showcase their passion for science.",
     icon: FlaskConical,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1Q7C7d39rX-FaL1HU65L_Bp3_PXuqQoyY/view?usp=sharing",
   },
   {
     title: "IPR Workshop Organizer",
@@ -55,7 +55,7 @@ const activities = [
     description:
       "Organized a workshop on Intellectual Property Rights (IPR) under the Institution's Innovation Council at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh.",
     icon: Lightbulb,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/14MJo7YYon72xYtR_lUgbTKDSaHlWucf_/view?usp=sharing",
   },
   {
     title: "Cognitive Skills & Design Thinking Workshop",
@@ -63,7 +63,7 @@ const activities = [
     description:
       "Participated in a workshop on cognitive skills, design thinking, and critical thinking, organized by the Institution's Innovation Council at Zakir Hussain College of Engineering and Technology, AMU, Aligarh, India.",
     icon: Brain,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1D9-X1qu9K8tkcYmOWebk1STkXYyaM_7s/view?usp=sharing",
   },
   {
     title: "Making of Modern India Lecture",
@@ -71,7 +71,7 @@ const activities = [
     description:
       "Participated in a lecture on 'Making of Modern India,' organized by the Training and Placement Office, Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: BookOpen,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1fEmAM8NuKSnY_NCaOOM2lKOWj8sAeTy_/view?usp=sharing",
   },
   {
     title: "Professional Growth & Development Workshop",
@@ -79,7 +79,7 @@ const activities = [
     description:
       "Participated in a workshop on 'Professional Growth and Development' during a summer internship at the National Institute of Technology (NIT), Hamirpur, India.",
     icon: TrendingUp,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1RLvnWoLbwong8WCQef0LWmp8UntHYWPE/view?usp=sharing",
   },
   {
     title: "Grid-Connected Solar PV Plants Seminar",
@@ -87,7 +87,7 @@ const activities = [
     description:
       "Participated in a national seminar on 'Grid-Connected Solar PV Plants' at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: Sun,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1RLvnWoLbwong8WCQef0LWmp8UntHYWPE/view?usp=sharing",
   },
   {
     title: "Embedded Systems & IoT Workshop",
@@ -95,7 +95,7 @@ const activities = [
     description:
       "Participated in a two-day workshop on 'Embedded Systems and IoT' at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: Cpu,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1DJoKWnUrbJfXjcJAdxCXGHnJl5KKwLzQ/view?usp=sharing",
   },
   {
     title: "Autonomous Robotics & Embedded Systems Workshop",
@@ -103,7 +103,7 @@ const activities = [
     description:
       "Participated in a workshop on 'Autonomous Robotics and Embedded Systems' at University Polytechnic, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: Bot,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1EwMNqoaudfNTYcbc9cmuOahP0v_LflPY/view?usp=sharing",
   },
   {
     title: "Make in India Workshop",
@@ -111,7 +111,7 @@ const activities = [
     description:
       "Participated in a workshop on 'Make in India: Opportunities and Challenges for Engineers' at University Polytechnic, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: Factory,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/13W_ZBq3RxEDOzCwtCcO9nCeNMFMT3l-_/view?usp=sharing",
   },
   {
     title: "International Conference on Renewable Power",
@@ -119,7 +119,7 @@ const activities = [
     description:
       "Participated in the International Conference on Renewable Power, organized by Baba Ghulam Shah Badshah University, Rajouri, J&K, India.",
     icon: Globe,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1k8bN0ZviSzjJlt7T4ovnv8p594pfDdH0/view?usp=sharing",
   },
   {
     title: "Robotics and Healthcare Webinar",
@@ -127,7 +127,7 @@ const activities = [
     description:
       "Participated in an international webinar on 'Robotics and Healthcare,' organized by St. Xavier's College, Nevta, affiliated with the University of Rajasthan, Jaipur, India.",
     icon: HeartPulse,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1gO-prLWEXT6TwNh5Fsdej3l4kN2cBFdI/view?usp=sharing",
   },
   {
     title: "Research Literacy - Youth Skills Day",
@@ -135,7 +135,7 @@ const activities = [
     description:
       "Participated in Research Literacy activities on the occasion of Youth Skills Day, organized by exploreiT.",
     icon: GraduationCap,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1Y9LpfJzGxKBFWZ6Pf-gCrlb8kb0ubp-o/view?usp=sharing",
   },
   {
     title: "Essay Writing Competition",
@@ -143,14 +143,14 @@ const activities = [
     description:
       "Participated in an essay writing competition on 'The Pandemic and Public Policy,' organized by the Law Faculty, Aligarh Muslim University (AMU), Aligarh.",
     icon: PenLine,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1sIzQWq1vx_V1GgRMIGEvfHCmA8eCqMAd/view?usp=sharing",
   },
   {
     title: "Basics of ANSYS Workshop",
     category: "Workshop",
     description: "Participated in a three-day workshop on the basics of ANSYS, organized by MMANTC, Malegaon, India.",
     icon: Settings,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1uNtmOxpty8gZZlMDnD-CvGp2fx7hEw6w/view?usp=sharing",
   },
 ]
 

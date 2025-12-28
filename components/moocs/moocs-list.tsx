@@ -17,7 +17,7 @@ const moocs = [
     description:
       "Gained an understanding of the overview, challenges, and solutions for integrating renewable energy sources into electricity grids.",
     logo: "/imperial-college-london-logo.jpg",
-    credential: "#",
+    credential: "https://drive.google.com/file/d/19llMMfD9Z5M4H6Fb6tOdwlFVxpm1leLF/view?usp=sharing",
   },
   {
     title: "Photovoltaic Solar Energy",
@@ -27,7 +27,7 @@ const moocs = [
     description:
       "Gained knowledge of the overview, challenges, recent advancements, and applications of solar PV for energy generation.",
     logo: "/ecole-polytechnique-logo.jpg",
-    credential: "#",
+    credential: "https://drive.google.com/file/d/1VeGvfgtNLVBlZTpRavTpl9A1JTqhTFyo/view?usp=sharing",
   },
   {
     title: "Programming for Everybody",
@@ -37,7 +37,7 @@ const moocs = [
     description:
       "Gained foundational computer programming skills, including problem-solving and basic coding concepts.",
     logo: "/university-of-michigan-logo.jpg",
-    credential: "#",
+    credential: "https://drive.google.com/file/d/1XW16xJ-XWNB-BiaRDLTijj8XSMURe6-h/view?usp=sharing",
   },
 ]
 

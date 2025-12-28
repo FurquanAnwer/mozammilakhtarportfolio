@@ -7,7 +7,7 @@ export default function EnvironmentalPage() {
   return (
     <main className="min-h-screen pt-16">
       <EnvironmentalHero />
-      <ImpactSection />
+      {/* <ImpactSection /> */}
       <AdvocacyProjects />
       <Footer />
     </main>

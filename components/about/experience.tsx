@@ -20,7 +20,7 @@ const experiences = [
     period: "Summer Internship",
     title: "Research Intern - Best Project Award",
     company: "NIT Hamirpur, India",
-    companyUrl: "https://nith.ac.in",
+    companyUrl: "https://drive.google.com/file/d/1W5TT6ScR5RNnCd3Xeof_44zI6ya9JR87/view?usp=sharing", //NIT Hamirpur certificate
     description:
       "Completed a 5-week summer internship working on fault diagnosis of substation apparatus. Supervised by Prof. Dr. Raj Kumar Jariyal. Received the Best Project Award.",
     skills: ["Fault Diagnosis", "Substation Apparatus", "Power Systems"],
@@ -30,7 +30,7 @@ const experiences = [
     period: "3-Week Training",
     title: "Solar Water Pumping Systems Training",
     company: "National Institute of Solar Energy (NISE), India",
-    companyUrl: "https://nise.res.in",
+    companyUrl: "https://drive.google.com/file/d/1INbUTqcbOsC-DaF-qivZpJTZHabh12Lw/view?usp=sharing",
     description:
       "Completed training on Solar Water Pumping Systems. Gained knowledge of innovative and eco-friendly agricultural irrigation methods.",
     skills: ["Solar Energy", "Water Pumping", "Agricultural Irrigation", "Renewable Energy"],
@@ -40,7 +40,7 @@ const experiences = [
     period: "4-Week Training",
     title: "Vocational Training",
     company: "Harduaganj Thermal Power Station",
-    companyUrl: "#",
+    companyUrl: "https://drive.google.com/file/d/1Y8GSx1QH3_ijycwxni3Ht_sSCW2LKSPM/view?usp=sharing",
     description:
       "Studied thermal power plant layout and operating principles. Gained hands-on exposure to boilers, turbines, generators, and condensers. Learned the electricity generation, transmission, and distribution process as well as safety protocols.",
     skills: ["Thermal Power", "Boilers", "Turbines", "Power Generation"],
@@ -50,7 +50,7 @@ const experiences = [
     period: "2-Month Internship",
     title: "IoT & Machine Learning Intern",
     company: "BOLT",
-    companyUrl: "#",
+    companyUrl: "https://drive.google.com/file/d/1Imokd9FOXRncBngHhlxh6R1VyY5n9PTw/view?usp=sharing",
     description:
       "Worked on popularizing concepts of Internet of Things (IoT) and Machine Learning. Gained exposure to IoT platforms, sensors, and data acquisition. Learned basic machine learning concepts and real-world applications.",
     skills: ["IoT", "Machine Learning", "Sensors", "Data Acquisition"],
@@ -60,7 +60,7 @@ const experiences = [
     period: "Leadership Training",
     title: "Climate Reality Leadership Corps",
     company: "Led by Nobel Laureate Al Gore",
-    companyUrl: "https://www.climaterealityproject.org",
+    companyUrl: "https://drive.google.com/file/d/1ART1xKurYwln7eafM2ehNP2aWOF4p0iX/view?usp=sharing",
     description:
       "Completed training under the Climate Reality Leadership Corps led by Nobel Laureate Al Gore. Developed skills in climate awareness and leadership advocacy.",
     skills: ["Climate Awareness", "Leadership", "Advocacy", "Sustainability"],
@@ -73,14 +73,14 @@ const leadershipExperiences = [
     title: "Web Coordinator",
     organization: "Entrepreneurship Development Cell (EDC)",
     institution: "Zakir Hussain College of Engineering and Technology, AMU, Aligarh",
-    certificateUrl: "#", // Replace with actual certificate URL
+    certificateUrl: "https://drive.google.com/file/d/1_kLd4S0c3qbk7HPN1ooqspeN861dkh6D/view?usp=sharing", // Replace with actual certificate URL
   },
   {
     title: "Secretary, Land and Garden",
     organization: "RM Hall",
     institution: "Aligarh Muslim University (AMU), Aligarh",
     description: "Responsible for maintaining and promoting greenery within the hostel premises.",
-    certificateUrl: "#", // Replace with actual certificate URL
+    certificateUrl: "https://drive.google.com/file/d/1QKtzr43Magc1S0qrC_ic9m0Qkfqn69ZH/view?usp=sharing", // Replace with actual certificate URL
   },
 ]
 

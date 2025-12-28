@@ -17,10 +17,6 @@ export function SocialServicesHero() {
             <Heart className="h-8 w-8 text-primary" />
           </div>
           <h1 className="mb-4 text-4xl font-bold text-foreground md:text-5xl">Social Services</h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Community engagement, volunteer initiatives, and outreach programs dedicated to creating positive social
-            impact through environmental education.
-          </p>
         </motion.div>
       </div>
     </section>

@@ -15,7 +15,7 @@ const achievements = [
     description:
       "Fully funded scholarship for Master's degree at Universiti Malaya, Malaysia. Sole recipient from India in 2022, selected among 14 scholars worldwide. Scholarship awarded based on academic merit and international competitiveness.",
     icon: Globe,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1i9eZZjjy58KMtzCo4um9e8NZK_wNT0Ll/view?usp=sharing",
   },
   {
     title: "Türkiye Bursları Scholarship",
@@ -25,7 +25,7 @@ const achievements = [
     description:
       "Selected to pursue a Master's degree in Electrical Engineering at Gaziantep University, Türkiye. Chosen among lakhs of applicants based on academic excellence.",
     icon: GraduationCap,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1rdbhaZ0Y83OeqnCZXerf6xFAup4l27rD/view?usp=sharing",
   },
   {
     title: "Ministry of Education (MOE) Scholarship, Taiwan",
@@ -35,7 +35,7 @@ const achievements = [
     description:
       "Received to pursue a Master's degree (IMEPE) at NSYSU, Taiwan in 2022. Selected among 100 applicants for this prestigious scholarship.",
     icon: GraduationCap,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1sHyRbIycCSEmMlR-kMf8EcC-HnJHxlZa/view?usp=sharing",
   },
   {
     title: "Best Paper Award",
@@ -45,7 +45,7 @@ const achievements = [
     description:
       "Received the Best Paper Award at an International Conference held at IEM, Kolkata, India. Presented the research paper at the international conference.",
     icon: FileText,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1E1QhT9gN23Rp3YkenrKHfEZ5BoYPioEb/view?usp=sharing",
   },
   {
     title: "Best Project Award",
@@ -55,7 +55,7 @@ const achievements = [
     description:
       "Awarded the Best Project Award by the Department of Electrical Engineering, NIT Hamirpur. Received a cash prize of INR 5,100 along with an internship completion certificate.",
     icon: Trophy,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1nWKlGhhoHXybnqrflUqiDfVEl5k6d9ts/view?usp=sharing",
   },
   {
     title: "AMU Alumni Scholarship (Young Inspiration Award)",
@@ -65,7 +65,7 @@ const achievements = [
     description:
       "Awarded the Aligarh Muslim University Alumni Scholarship (Young Inspiration Award), USA. Received the scholarship based on outstanding academic performance.",
     icon: Award,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1uCacVhTtliOQT-nJY0qk6sE-j2yVrkUa/view?usp=sharing",
   },
   {
     title: "AMU Alumni Scholarship, Canada",
@@ -75,7 +75,7 @@ const achievements = [
     description:
       "Awarded the Aligarh Muslim University Alumni Scholarship, Canada by Sana Rural Urban Welfare Society. Received based on academic excellence and dedication to studies.",
     icon: Medal,
-    certificateUrl: "#",
+    certificateUrl: "https://drive.google.com/file/d/1cOwnqgzL1Zo-kp5C5QU3Z1D-0DprqWLk/view?usp=sharing",
   },
 ]
 

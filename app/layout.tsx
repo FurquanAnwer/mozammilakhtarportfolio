@@ -9,7 +9,7 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Dr. Sarah Chen | Researcher & Environmental Advocate",
+  title: "M M Akhtar ",
   description: "Academic portfolio showcasing research, publications, achievements, and environmental advocacy work.",
     generator: 'v0.app'
 }

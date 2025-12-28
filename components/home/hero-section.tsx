@@ -24,7 +24,7 @@ export function HeroSection() {
               Mohammad Mozammil Akhtar
             </h1>
             <p className="mb-8 text-lg leading-relaxed text-muted-foreground max-w-xl">
-              Hello! I am a research enthusiast from India passionate about sustainable transportation.
+              Hello! I am a research enthusiast from India passionate about sustainable development.
 
             </p>
 
@@ -69,8 +69,19 @@ export function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 rounded-full bg-primary/20 blur-3xl" />
-              <div className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-primary/30 md:h-96 md:w-96">
-                <Image src="/professional-woman-researcher-scientist-portrait.jpg" alt="Dr. Sarah Chen" fill className="object-cover" priority />
+
+              <div className="relative h-100 w-72 overflow-hidden rounded-full border-4 border-primary/30 md:h-96 md:w-96">
+                <Image
+                  src="/homeprofile.png"
+                  alt="M M Akhtar"
+                  fill
+                  priority
+                  className="
+                    object-cover
+                    object-top
+                    translate-y-4
+                  "
+                />
               </div>
             </div>
           </motion.div>
