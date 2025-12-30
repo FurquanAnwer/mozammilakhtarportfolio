@@ -10,7 +10,7 @@ const experiences = [
     period: "Sep 2022 — May 2025",
     title: "Graduate Research Assistant",
     company: "Power Electronics and Renewable Energy Research Laboratory (PEARL), Universiti Malaya",
-    companyUrl: "https://um.edu.my",
+    companyUrl: "https://pearl.um.edu.my/",
     description:
       "Designed multiple magnetic coil structures and implemented a control strategy to charge EVs in both static and dynamic wireless charging conditions.",
     skills: ["Wireless Charging", "Magnetic Coil Design", "Control Systems", "EV Technology"],
@@ -94,10 +94,7 @@ export function Experience() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">Experience</h2>
-          <p className="max-w-2xl text-muted-foreground">
-            Professional positions, research roles, and training throughout my career.
-          </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">Experiences</h2>
         </motion.div>
 
         <div className="space-y-6">

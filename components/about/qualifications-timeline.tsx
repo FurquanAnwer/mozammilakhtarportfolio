@@ -18,7 +18,7 @@ const qualifications = [
     year: "2017-2021",
     title: "B.E (Bachelor of Engineering), (Electrical Engineering)",
     institution: "Zakir Hussain College of Engineering and Technology, Aligarh Muslim University, Aligarh,India",
-    description: "Conducted groundbreaking research on ecosystem restoration and carbon sequestration.",
+    description: "Thesis: Smart Home Energy Management Systems",
     icon: Award,
     type: "award",
   },
@@ -26,7 +26,7 @@ const qualifications = [
     year: "2016 - 2017",
     title: "Advance Diploma in Environmental Engineering",
     institution: "Aligarh Muslim University, Aligarh,India",
-    description: "Dissertation on climate change impacts on coastal ecosystems.",
+    description: "",
     icon: GraduationCap,
     type: "education",
   },
@@ -34,7 +34,7 @@ const qualifications = [
     year: "2013 - 2016",
     title: "Diploma in Computer Engineering",
     institution: "Aligarh Muslim University, Aligarh,India",
-    description: "Focused on biodiversity conservation and habitat restoration.",
+    description: "",
     icon: GraduationCap,
     type: "education",
   },
@@ -52,7 +52,7 @@ export function QualificationsTimeline() {
         >
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">Qualifications Timeline</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            My academic and professional journey in environmental science and research.
+            My academic and professional journey in computer, electrical and environmental engineering.
           </p>
         </motion.div>
 

@@ -17,10 +17,6 @@ export function AchievementsHero() {
             <Trophy className="h-8 w-8 text-primary" />
           </div>
           <h1 className="mb-4 text-4xl font-bold text-foreground md:text-5xl">Achievements & Awards</h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Recognition and honors received throughout my academic and professional career in environmental science and
-            sustainability research.
-          </p>
         </motion.div>
       </div>
     </section>

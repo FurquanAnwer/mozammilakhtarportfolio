@@ -33,9 +33,6 @@ export function Skills() {
           className="mb-12 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">Skills & Expertise</h2>
-          <p className="mx-auto max-w-2xl text-muted-foreground">
-            A comprehensive toolkit developed through years of research and professional experience.
-          </p>
         </motion.div>
 
         <div className="grid gap-8 md:grid-cols-2">

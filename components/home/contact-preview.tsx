@@ -38,20 +38,6 @@ export function ContactPreview() {
                 </div>
               </div>
 
-              <div className="mt-8 flex gap-4">
-                <Link href="https://www.linkedin.com/in/mohammad-mozammil-akhtar-195407174/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="icon">
-                    <Linkedin className="h-5 w-5" />
-                    <span className="sr-only">LinkedIn</span>
-                  </Button>
-                </Link>
-                <Link href="https://scholar.google.com/citations?user=sSIDe-cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="icon">
-                    <Twitter className="h-5 w-5" />
-                    <span className="sr-only">Google Scholar</span>
-                  </Button>
-                </Link>
-              </div>
             </div>
 
             <div className="flex items-center justify-center lg:justify-end">

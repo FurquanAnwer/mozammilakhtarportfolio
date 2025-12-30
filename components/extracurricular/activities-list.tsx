@@ -87,7 +87,7 @@ const activities = [
     description:
       "Participated in a national seminar on 'Grid-Connected Solar PV Plants' at Zakir Hussain College of Engineering and Technology, Aligarh Muslim University (AMU), Aligarh, India.",
     icon: Sun,
-    certificateUrl: "https://drive.google.com/file/d/1RLvnWoLbwong8WCQef0LWmp8UntHYWPE/view?usp=sharing",
+    certificateUrl: "https://drive.google.com/file/d/1ZEu_5x4kVQJqFud0LkGki7Z70DprWneL/view?usp=sharing",
   },
   {
     title: "Embedded Systems & IoT Workshop",

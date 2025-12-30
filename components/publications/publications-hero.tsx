@@ -17,10 +17,6 @@ export function PublicationsHero() {
             <BookOpen className="h-8 w-8 text-primary" />
           </div>
           <h1 className="mb-4 text-4xl font-bold text-foreground md:text-5xl">Publications</h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Peer-reviewed research papers, articles, and key findings contributing to environmental science and
-            sustainability.
-          </p>
 
           <div className="mt-8 flex justify-center gap-8">
             <div className="text-center">
