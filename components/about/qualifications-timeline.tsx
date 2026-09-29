@@ -5,12 +5,12 @@ import { GraduationCap, Briefcase, Award } from "lucide-react"
 
 const qualifications = [
   {
-    year: "2022 - Present",
+    year: "2022 - 2026",
     title: "M.Eng.(s.c) (Research Mode) ,(Electrical Engineering)",
     institution: "Universiti Malaya, Malaysia (QS Rank-58)",
     research: "Wireless Power Transfer for Electric Vehicles (EVs)",
-    supervisor: "Prof. Dr. Saad Mekhilef (Citation: 68,000+)",
-    description: "(Thesis submitted and followed by viva and degree award)",
+    supervisor: "Prof. Dr. Saad Mekhilef (Citation: 76,000+)",
+    description: "Thesis : A Non - Overlapping Multi Coil Magnetic Coupler for Dynamic Inductive Wireless Charging of Electric Vehicle",
     icon: Briefcase,
     type: "work",
   },
