@@ -72,7 +72,7 @@ export function HeroSection() {
 
               <div className="relative h-100 w-72 overflow-hidden rounded-full border-4 border-primary/30 md:h-96 md:w-96">
                 <Image
-                  src="/homeprofile.png"
+                  src="/mozammilphoto.png"
                   alt="M M Akhtar"
                   fill
                   priority
