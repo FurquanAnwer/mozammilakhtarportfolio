@@ -70,15 +70,15 @@ export function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-4 rounded-full bg-primary/20 blur-3xl" />
 
-              <div className="relative size-72 overflow-hidden rounded-full border-4 border-primary/30 md:size-96">
-                  <Image
-                    src="/mozammilphoto.png"
-                    alt="M M Akhtar"
-                    fill
-                    priority
-                    className="object-cover scale-[1.35] object-[65%_60%]"
-                  />
-              </div>
+          <div className="relative size-72 overflow-hidden rounded-full border-4 border-primary/30 md:size-96">
+            <Image
+              src="/mozammilphoto.png"
+              alt="M M Akhtar"
+              fill
+              priority
+              className="object-cover object-[60%_25%]"
+            />
+          </div> 
             </div>
           </motion.div>
         </div>
